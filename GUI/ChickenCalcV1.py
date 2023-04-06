@@ -16,7 +16,7 @@ vegan = IntVar()
 #Specifes base conditions for root window
 root.geometry("200x300")
 root.title("Chicken Calculator")
-root.iconbitmap("C:/Users/alber/Downloads/ChickenCalculator/GUI/Assets/pythontutorial-1-150x150.ico")
+root.iconbitmap("Your Icon Here")
 
 #Creates an object for where the widgets will go.
 frame = tk.Frame(root)
@@ -71,7 +71,7 @@ submitbox.grid(row=6, columnspan=3, column=0, sticky="NSEW")
 
 #This function opens another program. (About us page)
 def openAbout():
-    os.system("C:/Users/alber/OneDrive/Documents/ChickenCalculator/GUI/AboutUs.py")
+    os.system("About Us directory here")
 
 #Creates a button that opens the about menu
 aboutButton = tk.Button(frame, text="What is this?", command=openAbout)
